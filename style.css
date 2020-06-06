@@ -1,0 +1,124 @@
+.navbar{
+background-color: sienna !important;}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: goldenrod !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.fa-shopping-cart, .fa-user-circle{
+    font-size: 32px !important;
+}
+.fa-truck, .fa-phone, .fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: sienna;
+}
+h3{
+    color: sienna;
+}
+ .card1, .card2, .card3 {
+display: flex;
+width: 300px;
+height: 100px;
+margin-top: 10px;
+background-color: white;
+box-shadow: 2px 4px 5px grey;
+justify-content: center;
+align-items: center;
+ }
+ .cards{
+     margin-top: 30px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    }
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: sienna;
+}
+.heading >h1{
+    text-shadow: 2px 2px 4px goldenrod;
+}
+.arrivals{
+    margin-top: 50px;
+}
+.card{
+    width: 250px;
+    height: auto;
+margin-bottom: 5px;
+}
+.card-text{
+    font-weight: bold;
+} 
+.btn-primary{
+    width: 100%;
+    background-color: sienna;
+}
+
+.footer{
+    width: 100%;
+    background-color: sienna;
+    height: auto;
+}
+ 
+.copy{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+ 
+.icon{
+    position: fixed;
+    bottom: 40px;
+    right: 12px;
+   }
+   .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+   z-index: 100;
+   }
+
+h5{
+    color: black;
+}
+.btn:hover{
+    background-color: tan;
+}
+.dropdown-menu{
+    background-color: tan;
+}
+.dropdown-item:hover{
+    background-color: antiquewhite;
+    color: goldenrod !important;
+}
+ 
+
+@media screen and (max-width: 500px){
+        .card1, .card2, .card3 {
+            width: 100%;
+      }
+     
+}
+@media screen and (max-width: 900px){
+   
+  .card {
+    margin: 0 auto;  
+    float: none;  
+    margin-bottom: 10px; 
+}
+.aa{
+    margin-top: 450px;
+}
+  img.responsive{
+      height: 20px;
+  }
+}
+
+ 
